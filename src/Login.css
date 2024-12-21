@@ -1,0 +1,95 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container for the login page */
+  .ims {
+    background-color: #f7f7f7;
+    min-height: 100vh;
+  }
+  
+  /* Centering the login form vertically and horizontally */
+  .ims--login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Card styling for the login form */
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Padding inside the card */
+  .card-body {
+    padding: 2rem;
+  }
+  
+  /* Card title styling */
+  .card-title {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Label styling */
+  .form-label {
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  /* Input fields and select dropdown styling */
+  .form-control, .form-select {
+    border-radius: 5px;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+  }
+  
+  /* Button styling */
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    color: #fff;
+    width: 100%;
+  }
+  
+  /* Button hover effect */
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Margin top for the registration link */
+  .mt-3 {
+    margin-top: 1rem;
+  }
+  
+  /* Styling for the registration link */
+  .text-center a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 600;
+  }
+  
+  /* Hover effect for the registration link */
+  .text-center a:hover {
+    color: #0056b3;
+  }
+  
+  /* Title styling */
+.ims-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #007bff;  /* Bootstrap primary blue color */
+    margin-bottom: 2rem;
+  }

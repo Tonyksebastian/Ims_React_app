@@ -1,0 +1,55 @@
+/* admin.css */
+.container {
+    max-width: 800px;
+    margin-top: 50px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  input.form-control {
+    width: 100%;
+  }
+  
+  input[type="text"], input[type="email"] {
+    height: 40px;
+  }
+  
+  /* Style for the Approve and Reject buttons */
+  .btn-success {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  /* Modal customization */
+  .modal-header {
+    background-color: #f1f1f1;
+  }
+  
+  .modal-footer {
+    background-color: #f1f1f1;
+  }
+  

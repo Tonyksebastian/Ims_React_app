@@ -1,0 +1,45 @@
+/* Add any custom styles you need */
+
+.container {
+    max-width: 800px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card-header {
+    background-color: #f8f9fa;
+    font-weight: bold;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .vote-count {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  .vote-count:hover {
+    text-decoration: none;
+  }
+  
+  .btn-vote, .btn-collaborate {
+    margin-right: 10px;
+  }
+  
+  .btn-vote {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-collaborate {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  /* Bootstrap overrides or additional custom styles can be added here */
+  
